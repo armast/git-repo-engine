@@ -1,0 +1,53 @@
+<form name="feedback" action="../lib/functions.php" method="post" enctype="multipart/form-data">
+    <tr>
+        <td><label for="sur">Фамилия</label></td>
+        <td><input type="text" name="name" id="sur" class="text_transform" value='{{VALUE}}' required></td>
+    </tr>
+    <tr>
+        <td><label for="name2">Имя</label></td>
+        <td><input type="text" id="name2" class="text_transform"></td>
+    </tr>
+    <tr>
+        <td><label for="middle_name">Отчество</label></td>
+        <td><input type="text" id="middle_name" class="text_transform"></td>
+    </tr>
+    <tr>
+        <td><label for="foto">Загрузить фото</label></td>
+        <td><input type="file" id="foto"></td>
+    </tr>
+    <tr>
+        <td><label for="email">Адрес электронной почты</label></td>
+        <td><input type="email" id="email" placeholder="xxxxx@email.ru" required></td>
+    </tr>
+    <tr>
+        <td><label for="pass">Введите пароль</label></td>
+        <td><input type="password" id="pass"></td>
+    </tr>
+    <tr>
+        <td>Укажите ваш пол</td>
+        <td><input type="radio" id="sexM" name="sex"><label for="sexM">Мужской</label><br>
+            <input type="radio" id="sexW" name="sex"><label for="sexW">Женский</label>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="mdate">Выберите дату рождения</label></td>
+        <td><input type="date" id="mdate"></td>
+    </tr>
+    <tr>
+        <td>Откуда вы узнали о нас?</td>
+        <td><input type="checkbox" id="info1"><label for="info1">СМИ</label><br>
+            <input type="checkbox" id="info2"><label for="info2">Интернет</label><br>
+            <input type="checkbox" id="info3"><label for="info3">Другое</label>
+        </td>
+    </tr>
+    <tr>
+        <td><label for="about">Расскажите о себе</label></td>
+        <td><textarea cols="35" rows="4" id="about" name="about" maxlength="150" class="text_transform"></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2" class="ent">
+            <input type="submit" value="Зарегистрировать" class="ent" name="send">
+            <input type="reset" value="Очистить" class="ent">
+        </td>
+    </tr>
+</form>

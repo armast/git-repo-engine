@@ -1,0 +1,151 @@
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+body {
+    margin: 0;
+}
+
+#main {
+    width: 100%;
+    border-spacing: 0;
+}
+
+#main td{
+    padding: 0;
+}
+
+#menu table{
+    width: 100%;
+    border-spacing: 1px;
+}
+
+#menu table td{
+    background-color: #3E4E8E;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 13px;
+    font-family: tahoma,arial,verdana,sans-serif,Lucida Sans;
+}
+
+#menu td#name{
+    border-bottom-left-radius: 10px;
+}
+
+#menu table td a.title {
+    color: cyan;
+    text-decoration: none;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#main table td#search {
+    width: 30%;
+    border-bottom-right-radius: 10px;
+}
+
+#menu table td.next a, td#search a {
+    display: block;
+    padding: 12px 12px 15px;
+    height: 15px;
+    color: inherit;
+    text-decoration: none;
+}
+
+#menu table td.next a:hover {
+    background-color: #2E1971;
+    color: cyan;
+}
+
+#main table form input {
+    background: transparent url("../i/search-icon.png") no-repeat 2px;
+    padding: 2px 2px 2px 25px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    }
+
+#footer table {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+#footer table td{
+    background-color: #3E4E8E;
+    color: #FFFFFF;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    font-family: tahoma,arial,verdana,sans-serif,Lucida Sans;
+}
+
+#footer td#fir {
+    border-radius: 10px 0 0 10px;
+    width: 32%;
+}
+
+#footer td#for {
+    border-radius: 0 10px 10px 0;
+}
+
+#footer table td a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    padding: 12px 12px 15px;
+    height: 9px;
+}
+
+#footer table td a:hover {
+    background-color: #2E1971;
+    color: cyan;
+}
+
+#for a:hover{
+    border-radius: 0 10px 10px 0;
+}
+
+#header table {
+    width: 880px;
+    height: 350px;
+    background: url("../i/2.png") no-repeat 0px -200px;
+    border-spacing: 40px;
+    margin: 0 auto;
+}
+
+.log {
+    vertical-align: top;
+    text-align: justify;
+    font-size: 20px;
+    width: 55%;
+    font-family: 'Marck Script', cursive;
+}
+
+#fotogal table {
+    background-color: #F1F1F1;
+    width: 880px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.foto2 {
+    width: auto;
+    padding: 5px;
+    height: 130px;
+    border-radius: 20px;
+}
+
+#fotogal table tr th {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Marck Script', cursive;
+}
+
+#shadow {
+    box-shadow: 0px 10px 12px rgb(217, 0, 184);
+}
